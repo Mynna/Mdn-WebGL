@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    user-select: none;
+  }
+  
+  body {
+    background-color: #aaa;
+    font-family: Sans-Serif;
+  }
+  
+  canvas {
+    background-color: #fff;
+    border: 1px solid black;
+    /* NOTE: This size is changed if in iframe - see below '.iframe canvas' */
+    width: 640px;
+    height: 480px;
+    display: block;
+  }
+
+  body{
+      margin: 0;
+  }
+
+  canvas{
+      width: 50vw;
+      height: 50vh;
+      display: block;
+  }
